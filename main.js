@@ -25,6 +25,7 @@ console.log(carsInReverse);
 
 // // .sort()
 console.log(carsInReverse.sort());
+//alert(carsInReverse.indexOf('Chevrolet'));
 
 // // .slice()
 const removedCars = carsInReverse.slice(1, 4);
@@ -45,7 +46,8 @@ console.log(carsInReverse.pop());
 console.log(carsInReverse.shift());
 
 // // .unshift()
-console.log(carsInReverse.unshift("Acura"));
+carsInReverse.unshift("Acura");
+console.log(carsInReverse);
 
 // .forEach()
 let numbers = [23, 45, 0, 2];
