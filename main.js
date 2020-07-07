@@ -49,9 +49,9 @@ console.log(carsInReverse.unshift("Acura"));
 
 // .forEach()
 let numbers = [23, 45, 0, 2];
+numbers.forEach(number => console.log(number +2));
+// const addTwo = (number) => {
+//   console.log(number + 2);
+// }
 
-const addTwo = (number) => {
-  console.log(number + 2);
-}
-
-numbers.forEach(addTwo);
+// numbers.forEach(addTwo);
